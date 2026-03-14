@@ -29,14 +29,14 @@ function Run-Option {
 
     switch ($choice) {
         '1' {
-            irm "https://raw.githubusercontent.com/argadia38/cleanup-windows-update/main/scripts/cleanup-windows-update.ps1" | iex
+            irm "https://raw.githubusercontent.com/argadiaFK/windows-tool/main/scripts/cleanup-windows-update.ps1" | iex
         }
         '2' {
-            irm "https://raw.githubusercontent.com/argadia38/cleanup-windows-update/main/scripts/cleanup-temp.ps1" | iex
+            irm "https://raw.githubusercontent.com/argadiaFK/windows-tool/main/scripts/cleanup-temp.ps1" | iex
         }
         '3' {
-            irm "https://raw.githubusercontent.com/argadia38/cleanup-windows-update/main/scripts/cleanup-windows-update.ps1" | iex
-            irm "https://raw.githubusercontent.com/argadia38/cleanup-windows-update/main/scripts/cleanup-temp.ps1" | iex
+            irm "https://raw.githubusercontent.com/argadiaFK/windows-tool/main/scripts/cleanup-windows-update.ps1" | iex
+            irm "https://raw.githubusercontent.com/argadiaFK/windows-tool/main/scripts/cleanup-temp.ps1" | iex
         }
         '4' {
             slmgr /xpr
